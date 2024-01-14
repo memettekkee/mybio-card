@@ -1,0 +1,35 @@
+body{
+    font-family: roboto;
+    background-image: radial-gradient(circle at 40% 40%, #0D1B2A, #273947);
+}
+
+.card-title{
+    text-align: center;
+    font-size: xx-large;
+    color: #fafafa;
+    padding-bottom:  5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: rgba(255, 255, 255,  0.3 );
+    backdrop-filter: blur(10px);
+}
+
+.list-group-item a {
+
+    backdrop-filter: blur(10px);
+    text-decoration: none; 
+    color: #fafafa; 
+    transition: border-bottom 0.2s ease;
+}
+
+.list-group-item a:hover {
+    border-bottom: 2px solid #fafafa;
+  }
